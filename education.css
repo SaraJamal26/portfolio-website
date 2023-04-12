@@ -1,0 +1,104 @@
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #333;
+    overflow: hidden;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  nav li {
+    float: left;
+  }
+  
+  nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  nav li a:hover {
+    background-color: #111;
+  }
+  
+  main {
+    padding: 40px 20px 20px 20px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  #filter {
+    width: 100%;
+    padding: 12px 20px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+  }
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #courses {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+  }
+  
+  #courses li {
+    margin: 10px;
+    width: calc(33.33% - 20px);
+    background-color: #f2f2f2;
+    white-space: nowrap;
+    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+    /* transition: transform 0.2s ease-out, box-shadow 0.2s ease-out; */
+  }
+  
+  /* #courses li:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  } */
+  
+  #courses h2 {
+    margin: 0;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border-radius: 4px 4px 0 0;
+  }
+  
+  #courses ul {
+    margin: 0;
+    padding: 10px;
+  }
+  
+  #courses li a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  #courses li a:hover {
+    color: #666;
+  }
+  
+  
+  .show {
+    display: block;
+  }
+  

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Projects</title>
+  <link rel="stylesheet" href="projects.css">
+</head>
+<body>
+    <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="education.html">Education</a></li>
+        </ul>
+      </nav>
+  <main>
+    <h1>My Projects</h1>
+    <input type="text" id="filterInput" onkeyup="filterProjects()" placeholder="Filter by technology...">
+    <ul id="projectList">
+      <li class="projectItem" data-tags="javascript">Student Facilitation System (JavaScript)</li>
+      <li class="projectItem" data-tags="c#">Project Management System (C#)</li>
+      <li class="projectItem" data-tags="java">Front Controller Pattern (Java)</li>
+      <li class="projectItem" data-tags="javascript">Dice game (JavaScript)</li>
+      <li class="projectItem" data-tags="python">CV matcher (Python)</li>
+      <li class="projectItem" data-tags="python">Genetic Mutation Classifier (Python)</li>
+      <li class="projectItem" data-tags="javascript">Drum Kit (JavaScript)</li>
+      <li class="projectItem" data-tags="c#">Simple Calculator (C#)</li>
+    </ul>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
